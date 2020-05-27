@@ -6,13 +6,13 @@ const addElement = function() {
   
   //console.log('click');
   const div = document.createElement('div');
-  //console.log(div);
+  console.log(div);
   div.textContent = number;
   // if (number%5 == 0) {  
   //   div.classList.add('circle')
   // }
   if(activeNumber == 5){
-    active = 1;
+    activeNumber = 0;
     div.classList.add('circle')
   }
   document.body.appendChild(div);
